@@ -1,9 +1,8 @@
 import sys
 from config import CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET
-import tweepy
-
-import requests
 from lxml import html
+import requests
+import tweepy
 
 
 def create_tweet():
